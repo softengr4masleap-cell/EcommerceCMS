@@ -37,6 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Follo this to push:
 
+```bash
 echo "# EcommerceCMS" >> README.md
 git init
 git add README.md
@@ -44,3 +45,4 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/softengr4masleap-cell/EcommerceCMS.git
 git push -u origin main
+```
