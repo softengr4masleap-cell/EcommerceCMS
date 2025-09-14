@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 import express from 'express';
 import mongoose from 'mongoose';
 
+import heroRoute from './routes/Hero/heroRoute.js';
 import route from './routes/MenuBar/topmenuRoute.js';
-
 
 const app = express();
 app.use(bodyParser.json());
@@ -25,3 +25,5 @@ mongoose.connect(URL).then(() => {
 });
 
 app.use('/api', route);
+
+app.use('/api', heroRoute);

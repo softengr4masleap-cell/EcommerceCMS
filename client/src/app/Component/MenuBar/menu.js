@@ -1,5 +1,4 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -56,6 +55,7 @@ export default function Navbar() {
             <Link href="/about" className="hover:underline">About</Link>
             <Link href="/products" className="hover:underline">Products</Link>
             <Link href="/contact" className="hover:underline">Contact</Link>
+            <Link href="/admin" className="hover:underline">Admin</Link>
           </div>
           <div className="hidden md:flex gap-3">
             <Link href="/login" className="px-4 py-1 rounded border border-white text-white hover:bg-white hover:text-[#7BB2D9] transition">Login</Link>
