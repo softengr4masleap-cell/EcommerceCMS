@@ -6,6 +6,7 @@ import DataGridDemo from './Component/DataGrid/datagrid';
 import Footer from "./Component/Footer/footer";
 import Homeslider from "./Component/homeSlider/homeslider";
 import Product from "./Component/Product/product";
+import HeroSection from './Component/hero/hero';
 
 
 
@@ -14,6 +15,9 @@ export default function Home() {
   return (
     <main>
         <div>
+            <br></br>
+            <HeroSection />
+            <br></br>
             <br></br>
             <Homeslider/>
             <br></br>
